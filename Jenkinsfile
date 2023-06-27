@@ -1,7 +1,7 @@
 node
 {
 
-  def mavenHome=tool name: "maven3.9.3"
+  def mavenHome=tool name: "maven3.9.2"
   
  stage('Checkout')
  {
