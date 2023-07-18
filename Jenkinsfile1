@@ -5,7 +5,7 @@ node
   
  stage('Checkout')
  {
- 	git branch: 'development', credentialsId: 'bed5a851-d84d-412e-87e7-bf9ce23c0e0e', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+ 	git branch: 'develop', credentialsId: '2c39a203-bdab-4276-b361-2ef3f27d139e', url: 'https://github.com/bhanureddy25/DevopsSample.git'
  
  }
  stage('Build')
